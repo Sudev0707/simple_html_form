@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form_Roll_30</title>
+</head>
+
+<body>
+    <table align="center">
+        <form action="" name="form">
+            <thead>
+                <th colspan="2">Fill This Form</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="in"  placeholder="enter full name" required></td>
+                    <!-- <td>Last Name</td><td><input type="text"></td> -->
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" id="in" name="email" placeholder="enter valid email" required></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date" id="in" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="userGender" id="m_userGender" value="M" checked>Male
+                        <input type="radio" name="userGender" id="m_userGender" value="F">Female
+                        <input type="radio" name="userGender" id="m_userGender" value="O">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="number" id="in" name="phone" size="10"></td>
+                </tr>
+                <tr>
+                    <td valign="top">Address</td>
+                    <td><textarea name="useraddress" id="in" cols="20" rows="4" required></textarea>
+                    <td>
+                </tr>
+                <tr>
+                    <td>Occupation</td>
+                    <td><input type="text" id="in" name="occupation">
+                    <td>
+                </tr>
+                <tr>
+                    <td>Degree</td>
+                    <td><input type="radio" name="degree" id="m_degree" value="" checked>MCA
+                        <input type="radio" name="degree" id="m_degree" value="">MBA
+                        <input type="radio" name="degree" id="m_degree" value="">M.Tech
+                        <input type="radio" name="degree" id="m_degree" value="">MSc
+                    </td>
+                </tr>
+                <tr>
+                    <td>College/University</td>
+                    <td><select name="degree" id="in">
+                            <option value="1"> Culcutta University </option>
+                            <option value="2">Vidyasagar University</option>
+                            <option value="3">Jadavpur University</option>
+                            <option value="4"></option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>State</td>
+                    <td><select name="state" id="in">
+                            <option value="1"> West Bengal</option>
+                            <option value="2">Odisha</option>
+                            <option value="3">Jharkhand</option>
+                            <option value="4">Gujrat</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td><select name="country" id="in">
+                            <option value="1"> india </option>
+                            <option value="2">india</option>
+                            <option value="3">india</option>
+                            <option value="4">india</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Degree</td>
+                    <td><input type="checkbox" name="degree" id="m_degree" value="" checked>Music
+                        <input type="checkbox" name="degree" id="m_degree" value="">Cricket
+                        <input type="checkbox" name="degree" id="m_degree" value="">Swimming
+                    </td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                </tr>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4" align="center"><input type="submit" name="submit" value="submit" id="button"></td>
+                </tr>
+            </tfoot>
+            </tbody>
+        </form>
+    </table>
+</body>
+</html>
